@@ -1,0 +1,154 @@
+@font-face {
+    font-family:'Gotham-Light' ;
+    src: url(Gotham-Font/Gotham-Light.otf);
+}
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Gotham-Light';
+    
+    justify-content: center;
+    
+  
+}
+
+body{
+    background-image: url('binario.gif');
+    background-size: cover;
+    align-items: center;
+    display: flex;
+  
+}
+
+/*main{
+    background-color: #fff;
+    margin-top: 5em;
+    margin-left: 20em;
+    margin-right:20em;
+    padding-left:8em;
+    padding-right:8em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    border-radius: 2em;
+    justify-content: center;
+}*/
+
+main {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;}
+
+
+
+input{
+    text-align: left;
+    align-items: left;
+    cursor: pointer;
+    
+}
+h1{
+    color: gray;
+    font-size: 1.8em;
+    text-align: center;
+}
+h2{
+    font-size: 1.4em;
+    display: flex;
+}
+form {
+    font-size: 1em;
+    margin-top:0.5em;
+    align-items: center;
+    text-align: center;
+}
+.botoes{
+    background: rgb(7, 7, 205);
+    margin: 0.5em;
+    padding:1em;
+    border-radius: 2em;
+    color: #fff
+}
+.botoes:hover{
+    background: #fff;
+    color: #000;
+    border: solid rgb(7, 7, 205) 0.8px;
+    cursor: pointer
+}
+button{
+    background-color: rgb(7, 7, 205);
+    color: #fff;
+    font-size: 1em;
+    padding: 1em;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+    
+}
+button:hover{
+    background: #fff;
+    color:rgb(7, 7, 205);
+    border: solid rgb(7, 7, 205);
+    transition: .6s;
+}
+#nome{
+    display: flex;
+    border: none;
+    font-size: 1.2em;
+    border-bottom: solid gray 1px;
+    text-align: center;
+
+  
+}
+.center{
+    justify-content: center;
+    display: flex;
+}
+
+.animation{
+    animation: lera;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes letra {
+    50%{
+        transform: scale(1.5);
+
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+a{
+    background-color: rgb(7, 7, 205);
+    color: #fff;
+    font-size: 1em;
+    padding: 1em;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    
+    
+}
+a:hover{
+    background: #fff;
+    color:rgb(7, 7, 205);
+    border: solid rgb(7, 7, 205);
+    transition: .6s;}
